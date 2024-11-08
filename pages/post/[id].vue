@@ -1,5 +1,7 @@
 <script setup lang="ts">
-
+useSeoMeta({
+  title: "Post" + useRoute().params.id
+})
 </script>
 
 <template>

@@ -3,6 +3,10 @@
     Contact
   </div>
 </template>
-<script setup lang="ts">
+<script setup>
 //general/contact
+
+definePageMeta({
+  layout: 'nonav-layout'
+})
 </script>
