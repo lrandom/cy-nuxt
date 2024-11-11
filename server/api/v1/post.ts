@@ -11,5 +11,4 @@ export default defineEventHandler(async (event) => {
             image: faker.image.urlPlaceholder()
         }
     })
-
 });
