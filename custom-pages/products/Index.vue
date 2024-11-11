@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 const {data: products} = await useFetch("/api/v1/post");
 
 definePageMeta({
@@ -6,6 +7,10 @@ definePageMeta({
     console.log("Middleware from", from);
     console.log("Middleware to", to);
   },
+})
+
+onMounted(()=>{
+  useAlert().showConfirm("HIHI");
 })
 </script>
 
